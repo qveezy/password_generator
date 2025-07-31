@@ -26,7 +26,7 @@ try:
     else:
         letters = input("Include letters?yes/no: ").lower() == "yes"
         numbers = input("Include numbers?yes/no: ").lower() == "yes"
-        symbols = input("Include symblos?yes/no: ").lower() == "yes"
+        symbols = input("Include symbols?yes/no: ").lower() == "yes"
 
         password=gen_password(length, numbers ,  letters , symbols)
         print(f"Your password: {password}")
